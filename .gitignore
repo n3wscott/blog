@@ -1,15 +1,12 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+.DS_Store
 
-# Test binary, built with `go test -c`
-*.test
+node_modules
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+lib/core/metadata.js
+lib/core/MetadataBlog.js
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+website/translated_docs
+website/build/
+website/yarn.lock
+website/node_modules
+website/i18n/*
